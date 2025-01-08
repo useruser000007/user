@@ -1,0 +1,178 @@
+/* Përgjithshmëria */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.container {
+    width: 85%;
+    margin: 0 auto;
+}
+
+header {
+    background-color: #0052cc;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Seksioni i Sfidave */
+#challenges {
+    background-color: #ffffff;
+    padding: 40px 0;
+}
+
+#challenges h2 {
+    font-size: 2.5em;
+    text-align: center;
+    color: #333;
+    margin-bottom: 30px;
+}
+
+.challenges-list {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.challenge-item {
+    background-color: #e0e0e0;
+    border-radius: 8px;
+    padding: 20px;
+    width: 30%;
+    margin-bottom: 20px;
+    transition: all 0.3s ease;
+}
+
+.challenge-item h3 {
+    font-size: 1.8em;
+    color: #0052cc;
+}
+
+.challenge-item p {
+    font-size: 1em;
+    color: #555;
+}
+
+.challenge-item:hover {
+    background-color: #0052cc;
+    color: white;
+    transform: scale(1.05);
+}
+
+/* Seksioni i Studimeve të Rasteve */
+#case-studies {
+    background-color: #f9f9f9;
+    padding: 40px 0;
+}
+
+#case-studies h2 {
+    font-size: 2.5em;
+    text-align: center;
+    color: #333;
+    margin-bottom: 30px;
+}
+
+.case-cards {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.card {
+    background-color: #ffffff;
+    border-radius: 8px;
+    padding: 20px;
+    width: 30%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+.card h3 {
+    font-size: 1.6em;
+    color: #0052cc;
+}
+
+.card p {
+    color: #777;
+}
+
+.card:hover {
+    background-color: #0052cc;
+    color: white;
+    transform: scale(1.05);
+}
+
+/* Modal CSS */
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding-top: 60px;
+}
+
+.modal-content {
+    background-color: white;
+    margin: 5% auto;
+    padding: 20px;
+    border-radius: 8px;
+    width: 80%;
+    max-width: 600px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
